@@ -1,0 +1,91 @@
+.lfull{
+    display:flex;
+    flex-direction:row;
+    background-Color: #f0f4f7;
+
+}
+.lpart1{
+    display:flex;
+    flex-direction:column;
+    padding:40px;
+    margin: 100px;
+    border:2px solid black;
+    border-radius: 25px;
+    align-items: center;
+}
+.lpart2{
+    padding:40px;
+    margin: 100px;
+}
+.lh2 {
+    background-color: #4CAF50;  /* Light green background */
+    color: white;               /* White text */
+    padding: 8px;              /* Padding around the text */
+    border-radius: 8px;         /* Rounded corners */
+    text-align: center;         /* Center the heading */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  }
+  
+
+#l2{
+  margin:8px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Reset button - gray for neutral action */
+.lreset {
+    background-color: #f0ad4e;  /* Orange/Warning color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  /* Submit button - green for positive action */
+  .llogin{
+    background-color: #28a745;  /* Green for success */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  /* Sign Up button - blue for primary action */
+  .lsign{
+    background-color: #007bff;  /* Blue for primary action */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add some hover effects for a nice UI */
+  .lreset:hover,
+  .llogin:hover,
+  .lsign:hover {
+    opacity: 0.8;
+  }
+  #l1{
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-gap: 10px;
+    align-items: center;
+    margin: 8px;
+  }
+
+  label {
+    text-align: left;
+  }
+
+  input {
+    width: 100%;
+    height: 25px;
+  }
+  

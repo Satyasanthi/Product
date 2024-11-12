@@ -1,0 +1,17 @@
+.Oc{
+    display:flex;
+    align-items: center;
+}
+.Oc span{
+    opacity: 0.4;
+    cursor:pointer;
+}
+.Oc:hover span{
+   opacity: 1;
+}
+.Oc span:hover ~span{
+   opacity: 0.4;
+}
+.Oc span.active {
+   opacity: 1;
+}

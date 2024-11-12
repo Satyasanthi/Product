@@ -1,0 +1,130 @@
+.hall{
+  display:flex;
+  flex-direction: column;
+  
+}
+.hfirst{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hb,.hs,.hi,.hh3,.hsold,.nlogout,.nlogin,.nsign,.hp,.hc,.ho,.hw{
+  height: 30px; /* Set the same height for all elements */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  margin: 0;
+  font-size: 18px; 
+}
+.hb{
+  background-color: #F5F5F5;
+  color:#333333;
+  position: absolute;
+  left:0px;
+  border: none;
+  border-radius: 5px;
+}
+.hs{
+  background-color: #F5F5F5;
+  color:#333333;
+  position: absolute;
+  left:80px;
+  width:100px;
+  border: none;
+}
+.hi{
+  background-color: #F5F5F5;
+  color:#333333;
+  position: absolute;
+  left:180px;
+  width:150px;
+  border:none;
+  
+}
+.hh3{
+  text-align: center;
+  background-color: #f2f4f2;
+  position: center;
+  width:170px;
+  border: none;
+  border-radius: 5px;
+}
+.hsold{
+  background-color: #F5F5F5;
+  color:#333333;
+  position: absolute;
+  left:650px;
+  width:120px;
+  border: none;
+  border-radius: 5px;
+} 
+.nlogout{
+  background-color: red;  
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right:0px;
+  border: none;
+  border-radius: 5px;
+
+}
+.nlogin{
+  background-color: #28a745;
+  color:white;
+  cursor: pointer;
+  position: absolute;
+  right: 90px;
+  border: none;
+  border-radius: 5px;
+  
+}
+.nsign{
+  background-color: #007bff;  
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  border: none;
+  border-radius: 5px;
+}
+.hp{
+  position: absolute;
+  left: 800px;
+  
+}
+.hw{
+  position: absolute;
+  left: 840px;
+  
+}
+.ho{
+  position: absolute;
+  left: 880px;
+  
+}
+.hc{
+  position: absolute;
+  left:760px ;
+}
+
+.allButtons{
+  display: flex;
+  justify-content: space-around;
+  flex-direction:row;
+ 
+  margin: 10px;
+  padding:5px;
+} 
+.nbb{
+padding:5px;
+padding-left:10px;
+padding-right:10px;
+}
+.nproduct{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
